@@ -108,6 +108,7 @@ class _LoginFormState extends State<LoginForm> {
                   border: OutlineInputBorder(),
                 ),
                 obscureText: !_passwordVisible,
+
                 onChanged: (String value) {
                   setState(() {
                     _password = value;
